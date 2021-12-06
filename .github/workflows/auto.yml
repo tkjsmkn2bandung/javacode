@@ -12,8 +12,7 @@ jobs:
       - name: AGP
         uses: ms-jpq/auto-github-push/v1
         token: ${{ secrets.CI_TOKEN }}
-
-- uses: hisasann/simple-github-auto-push@main
-  env:
-    GITHUB_TOKEN: ${{ secrets.CI_TOKEN }}
-    BRANCH_NAME: #optional defaults to main
+        uses: hisasann/simple-github-auto-push@main
+        env:
+        GITHUB_TOKEN: ${{ secrets.CI_TOKEN }}
+        BRANCH_NAME: main
