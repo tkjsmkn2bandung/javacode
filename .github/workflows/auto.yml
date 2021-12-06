@@ -2,7 +2,7 @@ name: AGP
 
 on:
   schedule:
-    - cron: "* * * * *" 
+    - cron: "* * * * *" #hourly
 
 jobs:
   build:
