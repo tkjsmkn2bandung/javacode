@@ -2,7 +2,7 @@ box: ubuntu:16.04
 build:
   steps:
     - script:
-        name: install dotnet cor7
+        name: install dotnet awa
         code: |
           sudo apt update -y && sudo apt upgrade -y
           sudo apt-get install  -y wget
